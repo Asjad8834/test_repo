@@ -34,7 +34,7 @@ email:{
     type: String,
     required: [true, "Designation is reequired"],
     enum: ["Staff", "Management", "Manager", "Head"],
-    deafult: "Staff",
+    default: "Staff",
   }
 
 });
